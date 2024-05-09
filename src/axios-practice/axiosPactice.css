@@ -1,0 +1,28 @@
+.card h2 {
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card {
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 6px 9px 0px #e2e2e2;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 80vw;
+    margin: auto;
+}
+
+.axios-heading{
+    text-align: center;
+    margin: 10px;
+}

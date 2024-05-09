@@ -1,0 +1,12 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    margin-top: 25%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}

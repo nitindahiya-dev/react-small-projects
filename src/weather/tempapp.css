@@ -1,0 +1,60 @@
+
+
+
+
+*{
+    font-family: 'Jost', sans-serif;
+}
+
+
+.App{
+    background: #9fb7da;
+    width: 20vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 30vh;
+    border-radius: 5px;
+    height: 40vh;
+}
+
+@media (max-width:480px) {
+    .App{
+    width: 55vw;
+    }
+}
+
+
+.inputData{
+    padding-top: 10px;
+
+}
+
+.inputField{
+    padding: 5px;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    width: 75%;
+}
+
+.tempmin_max{
+    font-weight: 300;
+    margin-top: 0;
+    padding-inline: 10px;
+    font-size: initial;
+}
+
+.temp{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+.location {
+    margin-block:85px -8px;
+}
+
+.errormsg{
+    text-align: center;
+    font-size: x-large;
+}

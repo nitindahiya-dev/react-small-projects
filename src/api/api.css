@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+    background: #9fb7da;
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    margin-block: 10vh;
+    border-radius: 5px;
+    height: 40vh;
+  }
+  .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .post {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  

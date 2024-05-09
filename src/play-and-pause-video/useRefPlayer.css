@@ -1,0 +1,38 @@
+.video-container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.video-container video{
+    width: 50%;
+    margin-top: 5em;
+    border-radius: 10px;
+}
+
+.grid-btn{
+    margin-top: 10em;
+}
+
+.btn{
+    padding: 5px 60px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    background: #81e1ab;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #90deb1;
+}
+
+.btn-pause{
+    background: #eb4f39;
+}
+
+.btn-pause:hover{
+    background: #e05c4b; 
+}
